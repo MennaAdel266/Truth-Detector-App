@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>523225973989-5o3f0ah3f2u2lgguvm914uliu1ncmv9q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.523225973989-5o3f0ah3f2u2lgguvm914uliu1ncmv9q</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>523225973989-q6hr4ua95rmql3nijmq8b0tufjqs0hal.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC8hoXfXPV0xlLQutuZrvNlAQPLj_U9ByU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>523225973989</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.truthDetectorApp</string>
+	<key>PROJECT_ID</key>
+	<string>truth-detector-app-ef4f2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>truth-detector-app-ef4f2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:523225973989:ios:0dca0e99a23476a0bb800c</string>
+</dict>
+</plist>

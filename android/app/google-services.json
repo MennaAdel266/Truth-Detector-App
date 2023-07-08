@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "523225973989",
+    "project_id": "truth-detector-app-ef4f2",
+    "storage_bucket": "truth-detector-app-ef4f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523225973989:android:09a294f47615af23bb800c",
+        "android_client_info": {
+          "package_name": "com.example.truth_detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523225973989-83knio6l4a0tr1sqokng9ef5vbh6hk3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4psVzSGcr9TjMAJGRLznEih_Ig_dvndc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523225973989-83knio6l4a0tr1sqokng9ef5vbh6hk3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523225973989:android:4ddeb29d09c49577bb800c",
+        "android_client_info": {
+          "package_name": "com.example.truth_detector_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523225973989-q6hr4ua95rmql3nijmq8b0tufjqs0hal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.truth_detector_app",
+            "certificate_hash": "8d31a677f5a383293c789d846e80812b300ffe6c"
+          }
+        },
+        {
+          "client_id": "523225973989-83knio6l4a0tr1sqokng9ef5vbh6hk3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4psVzSGcr9TjMAJGRLznEih_Ig_dvndc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523225973989-83knio6l4a0tr1sqokng9ef5vbh6hk3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
