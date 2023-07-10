@@ -54,7 +54,7 @@ class NavDrawer extends StatelessWidget {
               ),
               Center(
                 child: Text(
-                  'Norhan Ali',
+                  'Menna Adel',
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,

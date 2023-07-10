@@ -70,6 +70,9 @@ class ContactUsScreen extends StatelessWidget {
         var userModel = LayoutCubit.get(context).userModel;
 
         messageController.text=userModel.message;
+        nameController.text=userModel.name;
+        emailController.text=userModel.email;
+        phoneController.text=userModel.phone;
 
         return Scaffold(
           backgroundColor: ColorConsts.grey,
@@ -182,7 +185,6 @@ class ContactUsScreen extends StatelessWidget {
                                 ),
                                 TextFormField(
                                   controller: phoneController,
-                                  keyboardType: TextInputType.phone,
                                   validator: (String value) {
                                     if (value.isEmpty) {
                                       return AppLocalizations.of(context).translate(
@@ -248,7 +250,7 @@ class ContactUsScreen extends StatelessWidget {
                                         emailController.text;
                                         phoneController.text;
                                         messageController.text;
-                                        LayoutCubit.get(context).updateUserData( message: messageController.text);
+                                        LayoutCubit.get(context).uploadUserMessage(name: nameController.text,email: emailController.text,phone: phoneController.text, message: messageController.text);
                                         showAlertDialog();
                                       }
                                     },

@@ -19,8 +19,8 @@ class SignUpScreen extends StatelessWidget {
     final screenHeight= MediaQuery.of(context).size.height;
     final screenWidth= MediaQuery.of(context).size.width;
 
-    var Controller= TextEditingController();
-    var pController= TextEditingController();
+    var nameController= TextEditingController();
+    var emailController= TextEditingController();
     var phoneController= TextEditingController();
     var passwordController= TextEditingController();
 
@@ -80,7 +80,7 @@ class SignUpScreen extends StatelessWidget {
                               height: screenHeight*0.017,
                             ),
                             defaultFormFeild(
-                              controller:Controller ,
+                              controller:nameController ,
                               type: TextInputType.name,
                               validate: (String value)
                               {
@@ -94,7 +94,7 @@ class SignUpScreen extends StatelessWidget {
                               height: screenHeight*0.022,
                             ),
                             defaultFormFeild(
-                              controller:pController ,
+                              controller:emailController ,
                               type: TextInputType.emailAddress,
                               validate: (String value)
                               {
@@ -109,8 +109,7 @@ class SignUpScreen extends StatelessWidget {
                               height: screenHeight*0.022,
                             ),
                             defaultFormFeild(
-                              controller:pController ,
-                              type: TextInputType.phone,
+                              controller:phoneController ,
                               validate: (String value)
                               {
                                 if(value.isEmpty){
@@ -124,8 +123,7 @@ class SignUpScreen extends StatelessWidget {
                               height: screenHeight*0.022,
                             ),
                             defaultFormFeild(
-                              controller:pController ,
-                              type: TextInputType.visiblePassword,
+                              controller:emailController,
                               validate: (String value)
                               {
                                 if(value.isEmpty){
@@ -162,10 +160,10 @@ class SignUpScreen extends StatelessWidget {
                                   {
                                     if(formKey.currentState.validate()){
                                       SignupCubit.get(context).userSignup(
-                                        name:Controller.text ,
-                                        email: pController.text,
-                                        phone: pController.text,
-                                        password: pController.text,
+                                        name:nameController.text ,
+                                        email: emailController.text,
+                                        phone: phoneController.text,
+                                        password: emailController.text,
                                       );
                                       navigateTo(context, HomeScreen());
                                     }

@@ -183,7 +183,7 @@ class RateUsScreen extends StatelessWidget {
                               {
                                 if(formKey.currentState.validate()){
                                   commentController.text;
-                                  LayoutCubit.get(context).updateUserData(comment: commentController.text);
+                                  LayoutCubit.get(context).uploadUserComment(comment: commentController.text);
                                   showAlertDialog();
                                 }
                               },

@@ -21,7 +21,7 @@ class CameraScreen extends StatefulWidget {
 class _CameraScreenState extends State<CameraScreen> {
   File cameraImage;
   var picker = ImagePicker();
-  final url = "http://192.168.1.7:5000/predict-image";
+  final url = "http://172.20.10.5:5000/predict-image";
 
   Future<void> getCameraImage() async {
     final pickedFile = await picker.getImage(source: ImageSource.camera);

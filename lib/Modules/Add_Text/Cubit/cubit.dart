@@ -21,7 +21,7 @@ class AddTextCubit extends Cubit<AddTextStates> {
   {
     emit(AddTextLoadingState());
     DioHelper.postData(
-      url: 'http://192.168.1.7:5000/predict',
+      url: 'http://172.20.10.5:5000/predict',
       data:{
         'text':text,
         'link':link,

@@ -97,7 +97,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            home:startWidget,
+            home:SplashScreen(),
           );
         },
       ),

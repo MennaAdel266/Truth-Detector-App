@@ -23,7 +23,7 @@ class _UploadScreenState extends State<UploadScreen> {
 
   File galleryImage;
   var picker = ImagePicker();
-  final url = "http://192.168.1.7:5000/predict-image";
+  final url = "http://172.20.10.5:5000/predict-image";
 
   Future<void> getGalleryImage() async
   {

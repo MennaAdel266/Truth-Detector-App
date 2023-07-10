@@ -49,6 +49,7 @@
   "comment": "comment",
   "done": "Done",
   "review": "Review",
+  "loading": "*Note: It may take about one minute to process the image, so please be patient.",
   "thank_you": "Thank you!",
   "thank_you_message": "Thank you, We will review your request.",
   "enter-email": "Please enter your email!",

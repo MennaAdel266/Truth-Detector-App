@@ -18,7 +18,7 @@ class LoadingScreen extends StatefulWidget {
 class _LoadingScreen extends State<LoadingScreen> {
   var _time;
   start() {
-    _time = Timer(Duration(seconds: 35), call);
+    _time = Timer(Duration(seconds: 60), call);
   }
 
   void call() {
@@ -85,14 +85,28 @@ class _LoadingScreen extends State<LoadingScreen> {
               ),
             ),
             SizedBox(
-              height: screenHeight*0.13,
+              height: screenHeight*0.1,
             ),
             Lottie.network('https://assets4.lottiefiles.com/packages/lf20_l9bcfk19.json',width: 250, height: 250,),
+            Center(
+              child: Padding(
+                padding: const EdgeInsets.only(left: 42,right: 20,top: 16),
+                child: Text(
+                  AppLocalizations.of(context).translate("loading"),
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    fontFamily: 'segoepr',
+                    color:ColorConsts.darkPurple,
+                  ),
+                ),
+              ),
+            ),
             Image(
               image: AssetImage('assets/images/footer.png'),
               fit: BoxFit.cover,
               width: 360,
-              height: 292.5,
+              height: 250,
             ),
           ],
         ),
