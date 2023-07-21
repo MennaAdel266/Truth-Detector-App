@@ -1,19 +1,19 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:truth_detector_app/Layout/Cubit/cubit.dart';
-import 'package:truth_detector_app/Layout/home_screen.dart';
-import 'package:truth_detector_app/Modules/Login_Screen/login_screen.dart';
-import 'package:truth_detector_app/Modules/splash_screen.dart';
-import 'package:truth_detector_app/Shared/Components/colors.dart';
-import 'package:truth_detector_app/Shared/Components/constants.dart';
-import 'package:truth_detector_app/Shared/Cubit/cubit.dart';
-import 'package:truth_detector_app/Shared/Cubit/states.dart';
-import 'package:truth_detector_app/Shared/Network/local/cache_helper.dart';
-import 'package:truth_detector_app/Shared/Network/remote/dio_helper.dart';
-import 'package:truth_detector_app/Shared/app_localizations.dart';
-import 'package:truth_detector_app/Shared/bloc_observer.dart';
+import 'package:truth_detector_app/Control/Components/constants.dart';
+import 'package:truth_detector_app/Control/Cubit/cubit.dart';
+import 'package:truth_detector_app/Control/Cubit/states.dart';
+import 'package:truth_detector_app/Control/Network/local/cache_helper.dart';
+import 'package:truth_detector_app/Control/Network/remote/dio_helper.dart';
+import 'package:truth_detector_app/Control/app_localizations.dart';
+import 'package:truth_detector_app/Control/bloc_observer.dart';
+import 'package:truth_detector_app/Control/end_points.dart';
+import 'package:truth_detector_app/Views/Home_Screen/Cubit/cubit.dart';
+import 'package:truth_detector_app/Views/Home_Screen/home_screen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:truth_detector_app/Views/Login_Screen/login_screen.dart';
+import 'package:truth_detector_app/Views/splash_screen.dart';
 
 
 void main() async {
